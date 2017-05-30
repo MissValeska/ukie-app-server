@@ -1,0 +1,28 @@
+{
+  "name": "ukie-app-server",
+  "version": "1.0.0",
+  "description": "A backend for the ukie app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MissValeska/ukie-app-server.git"
+  },
+  "keywords": [
+    "ukie",
+    "language",
+    "learning",
+    "ukrainian",
+    "android",
+    "app",
+    "backend"
+  ],
+  "author": "Valeska Victoria & Gabriela Medvetska",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MissValeska/ukie-app-server/issues"
+  },
+  "homepage": "https://github.com/MissValeska/ukie-app-server#readme"
+}
