@@ -14,6 +14,10 @@ app.get('/conjtype', function(req, res) {
   res.send("ти")
 })
  
+app.get('/', function(req, res) {
+  res.send("HAI")
+})
+
 app.get('', function(req, res) {
   res.send("HAI")
 })
