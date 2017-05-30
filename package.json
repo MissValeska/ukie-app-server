@@ -4,7 +4,24 @@
   "description": "A backend for the ukie app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "destroy": "^1.0.4",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "google-auth-library": "^0.10.0",
+    "livereload": "^0.6.2",
+    "lodash": "^4.17.4",
+    "mime": "^1.3.4",
+    "mysql": "^2.13.0",
+    "net": "^1.0.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "reload": "^1.1.2",
+    "send": "^0.15.1",
+    "tls": "0.0.1",
+    "webpack-dev-server": "^2.4.3"
   },
   "repository": {
     "type": "git",
