@@ -3,16 +3,18 @@ var app = express()
 
 app.set('port', (process.env.PORT || 5000));
 
+app.set('json spaces', 0);
+
 app.get('/conj', function(req, res) {
-  res.send("живеш")
+  res.json({conj:"живеш"});
 })
 
 app.get('/infin', function(req, res) {
-  res.send("жити")
+  res.json({infin:"жити"});
 })
 
 app.get('/conjtype', function(req, res) {
-  res.send("ти")
+  res.json({conjtype:"ти"});
 })
  
 app.get('/', function(req, res) {
