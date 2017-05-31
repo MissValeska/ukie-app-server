@@ -1,7 +1,7 @@
 var express = require('express')
  
 var app = express()
- 
+
 app.get('/conj', function(req, res) {
   res.send("живеш")
 })
@@ -15,10 +15,6 @@ app.get('/conjtype', function(req, res) {
 })
  
 app.get('/', function(req, res) {
-  res.send("HAI")
-})
-
-app.get('', function(req, res) {
   res.send("HAI")
 })
 
