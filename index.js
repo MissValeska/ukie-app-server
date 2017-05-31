@@ -4,21 +4,9 @@ var app = express()
 app.set('port', (process.env.PORT || 5000));
 
 app.set('json spaces', 0);
-
-app.get('/conj', function(req, res) {
-  res.json({conj:"живеш"});
-})
-
-app.get('/infin', function(req, res) {
-  res.json({infin:"жити"});
-})
-
-app.get('/conjtype', function(req, res) {
-  res.json({conjtype:"ти"});
-})
  
 app.get('/', function(req, res) {
-  res.send("HAI")
+  res.json({conj:"живеш", conjtype:"ти", infin:"жити"});
 })
 
 app.listen(app.get('port'), function() {
